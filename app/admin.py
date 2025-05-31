@@ -11,7 +11,7 @@ admin = Router()
 
 class Admin(Filter):
     async def __call__(self, message: Message):
-        return message.from_user.id in [2066791910]
+        return message.from_user.id in [### Список админов ###]
 
 @admin.message(Admin(), Command('send_mes'))
 async def newsletter(message: Message, state: FSMContext):
