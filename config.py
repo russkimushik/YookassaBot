@@ -1,0 +1,3 @@
+TOKEN = '7668586798:AAEGp6Yn1cEyA7__6VW0pLRqWhnbYoM9VD4'
+PAYMENT_TOKEN = '390540012:LIVE:70752'
+DB_URL = 'sqlite+aiosqlite:///db.sqlite3'
